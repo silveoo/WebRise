@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users/{userId}/subscriptions")
+@RequestMapping("api/v1/users/{userId}/subscriptions")
 @RequiredArgsConstructor
 @Slf4j
 public class SubscriptionController {
